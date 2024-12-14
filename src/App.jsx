@@ -193,11 +193,11 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-200 via-purple-300 to-pink-200 flex flex-col items-center justify-center p-6">
       <h1 className="text-3xl font-extrabold text-gray-800 mb-8">Unicode to ASCII Converter</h1>
       <div className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-md">
-        <label className="block text-lg font-medium text-gray-700 mb-2">Enter Malayalam Text</label>
+        <label className="block text-lg font-medium text-gray-700 mb-2">Enter Unicode</label>
         <textarea
           className="w-full p-4 border border-gray-300 rounded-lg mb-6 focus:ring-2 focus:ring-indigo-500 focus:outline-none"
           rows="5"
-          placeholder="Type Malayalam text here..."
+          placeholder="Type unicode here..."
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
         ></textarea>
